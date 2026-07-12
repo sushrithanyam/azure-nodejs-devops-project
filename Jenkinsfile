@@ -31,8 +31,11 @@ pipeline {
 
         stage('Package Application') {
             steps {
-                powershell '''
-                Compress-Archive -Path * -DestinationPath app.zip -Force
+                sh '''
+                    rm -f app-clean.zip
+                    zip -r app-clean.zip . -x "node_modules/*" ".git/*"
+                    ls -lh app-clean.zip
+
                 '''
             }
         }
