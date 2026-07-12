@@ -18,14 +18,14 @@ pipeline {
 
         stage('Install Dependencies') {
             steps {
-                bat 'npm install'
+                sh 'npm install'
             }
         }
 
         stage('Test') {
             steps {
                 echo 'Running basic tests'
-                bat 'npm test || exit 0'
+                sh 'npm test || exit 0'
             }
         }
 
