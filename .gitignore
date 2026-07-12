@@ -350,3 +350,14 @@ MigrationBackup/
 .ionide/
 
 .azure/
+# Deployment packages
+*.zip
+
+# Node dependencies
+node_modules/
+
+# Azure build files
+oryx-manifest.toml
+
+# Local environment files
+.env
