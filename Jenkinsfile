@@ -48,7 +48,7 @@ pipeline {
                 az login --service-principal \
                     --username "$AZURE_CREDENTIALS_USR" \
                     --password "$AZURE_CREDENTIALS_PSW" \
-                    --tenant "$AZURE_TENANT_ID"
+                    --tenant "de39b974-8de7-4d93-bdea-7dc84b8e7a9f"
 
                 echo "Deploying application..."
 
