@@ -42,7 +42,7 @@ pipeline {
 
         stage('Deploy to Azure') {
             steps {
-                powershell '''
+                sh '''
                 az login --service-principal `
                 --username $env:AZURE_CREDENTIALS_USR `
                 --password $env:AZURE_CREDENTIALS_PSW `
@@ -59,7 +59,7 @@ pipeline {
 
         stage('Health Check') {
             steps {
-                powershell '''
+                sh '''
                 Invoke-WebRequest https://node-task-app-sushr12345.azurewebsites.net
                 '''
             }
