@@ -43,25 +43,35 @@ pipeline {
         stage('Deploy to Azure') {
             steps {
                 sh '''
-                az login --service-principal `
-                --username $env:AZURE_CREDENTIALS_USR `
-                --password $env:AZURE_CREDENTIALS_PSW `
-                --tenant de39b974-8de7-4d93-bdea-7dc84b8e7a9f
+                echo "Logging into Azure..."
 
-                az webapp deploy `
-                --resource-group $env:RESOURCE_GROUP `
-                --name $env:APP_NAME `
-                --src-path app.zip `
-                --type zip
+                az login --service-principal \
+                    --username "$AZURE_CREDENTIALS_USR" \
+                    --password "$AZURE_CREDENTIALS_PSW" \
+                    --tenant "$AZURE_TENANT_ID"
+
+                echo "Deploying application..."
+
+                az webapp deploy \
+                    --resource-group rg-nodejs-mongodb-devops \
+                    --name node-task-app-sushr12345 \
+                    --src-path app-clean.zip \
+                    --type zip
+
+                echo "Deployment completed"
                 '''
             }
         }
 
         stage('Health Check') {
             steps {
-                sh '''
-                Invoke-WebRequest https://node-task-app-sushr12345.azurewebsites.net
-                ''' 
+            sh '''
+                echo "Checking application health..."
+
+                curl -I https://node-task-app-sushr12345.azurewebsites.net
+
+                echo "Health check completed"
+            '''
             }
         }
     }
