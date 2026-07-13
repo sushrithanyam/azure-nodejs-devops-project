@@ -62,6 +62,7 @@ The project implements:
      Live Website
 
 ```
+<img width="1122" height="1402" alt="Image Jul 12, 2026, 08_46_15 PM" src="https://github.com/user-attachments/assets/f9803a72-a45d-422c-a43e-4d0e25345c5c" />
 
 ---
 
@@ -411,6 +412,16 @@ https://node-task-app-sushr12345.azurewebsites.net
 <img width="1920" height="962" alt="image" src="https://github.com/user-attachments/assets/ea9ee670-ad25-4272-852c-320447bef7fa" />
 <img width="1920" height="962" alt="image" src="https://github.com/user-attachments/assets/61a3329b-7ca5-46ca-b577-227268da085d" />
 <img width="1920" height="962" alt="image" src="https://github.com/user-attachments/assets/dce45e0a-50b0-4840-bf36-4dc12fff19ca" />
+
+---
+## Screenshot 8: Health Check
+
+**Description:**
+
+Showing health check.
+
+<img width="1920" height="968" alt="image" src="https://github.com/user-attachments/assets/98418cfc-2f95-41df-b99a-c96a7f9862e3" />
+
 
 ---
 
