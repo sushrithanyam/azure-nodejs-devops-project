@@ -422,9 +422,21 @@ Showing health check.
 
 <img width="1920" height="968" alt="image" src="https://github.com/user-attachments/assets/98418cfc-2f95-41df-b99a-c96a7f9862e3" />
 
+<img width="1920" height="959" alt="image" src="https://github.com/user-attachments/assets/52cb6b5d-efc4-462d-ac95-c27bb1d9eee0" />
+<img width="1920" height="957" alt="image" src="https://github.com/user-attachments/assets/1f07d1d9-0cdb-450c-b93d-6bbec8000b65" />
+<img width="1920" height="951" alt="image" src="https://github.com/user-attachments/assets/b106051e-2d56-4657-8436-8b670bdf391e" />
 
 ---
+## Screenshot 9: Monitor Metrics and Application Insights
 
+**Description:**
+The application is monitored using Azure Monitor and Application Insights.
+
+<img width="1920" height="959" alt="image" src="https://github.com/user-attachments/assets/52cb6b5d-efc4-462d-ac95-c27bb1d9eee0" />
+<img width="1920" height="957" alt="image" src="https://github.com/user-attachments/assets/1f07d1d9-0cdb-450c-b93d-6bbec8000b65" />
+<img width="1920" height="951" alt="image" src="https://github.com/user-attachments/assets/b106051e-2d56-4657-8436-8b670bdf391e" />
+
+---
 # Complete CI/CD Flow
 
 ```
