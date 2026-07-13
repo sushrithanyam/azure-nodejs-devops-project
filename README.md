@@ -299,6 +299,8 @@ Screenshot should include:
 * Build started
 * Git checkout successful
 * Pipeline stages visible
+<img width="1920" height="963" alt="image" src="https://github.com/user-attachments/assets/b7891e8e-dd3e-4d00-a7fe-9c2bf710de7b" />
+<img width="1920" height="959" alt="image" src="https://github.com/user-attachments/assets/0924d984-34ba-49a3-976c-f6fb4971f0c4" />
 
 ---
 
@@ -313,6 +315,7 @@ npm install
 ```
 
 and installing Node.js packages successfully.
+<img width="1920" height="962" alt="image" src="https://github.com/user-attachments/assets/bd5a441c-7ae1-4220-acd4-37f41496fc4f" />
 
 ---
 
@@ -327,6 +330,7 @@ app-clean.zip
 ```
 
 This ZIP file is used for Azure deployment.
+<img width="1920" height="965" alt="image" src="https://github.com/user-attachments/assets/18a12c3c-1a46-4bcf-9c11-2d78a9e0b25b" />
 
 ---
 
@@ -340,8 +344,10 @@ Commands:
 
 ```
 terraform init
+<img width="1650" height="551" alt="image" src="https://github.com/user-attachments/assets/dca71246-9ed9-41df-8a70-42e5d9de243d" />
 
 terraform plan
+<img width="1639" height="736" alt="image" src="https://github.com/user-attachments/assets/6d5302c0-6756-4be5-a19e-00d54714b533" />
 
 terraform apply
 ```
@@ -370,6 +376,7 @@ App Service:
 ```
 node-task-app-sushr12345
 ```
+<img width="1920" height="962" alt="image" src="https://github.com/user-attachments/assets/126bd501-400c-4606-b6ee-a305aefe2551" />
 
 ---
 
@@ -384,6 +391,9 @@ app-clean.zip
 ```
 
 to Azure App Service.
+<img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/e4b5b14e-7b32-49ef-8462-505ed9ba7ba1" />
+<img width="1920" height="968" alt="image" src="https://github.com/user-attachments/assets/e6859578-67cc-4406-8e48-9869b4465d8d" />
+<img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/cc03dc22-875a-4863-9b95-a5f4c9710b1e" />
 
 ---
 
@@ -398,6 +408,9 @@ URL:
 ```
 https://node-task-app-sushr12345.azurewebsites.net
 ```
+<img width="1920" height="962" alt="image" src="https://github.com/user-attachments/assets/ea9ee670-ad25-4272-852c-320447bef7fa" />
+<img width="1920" height="962" alt="image" src="https://github.com/user-attachments/assets/61a3329b-7ca5-46ca-b577-227268da085d" />
+<img width="1920" height="962" alt="image" src="https://github.com/user-attachments/assets/dce45e0a-50b0-4840-bf36-4dc12fff19ca" />
 
 ---
 
