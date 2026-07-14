@@ -342,8 +342,6 @@ This ZIP file is used for Azure deployment.
 Shows Terraform creating Azure resources.
 
 Commands:
-<img width="1650" height="551" alt="image" src="https://github.com/user-attachments/assets/dca71246-9ed9-41df-8a70-42e5d9de243d" />
-<img width="1639" height="736" alt="image" src="https://github.com/user-attachments/assets/6d5302c0-6756-4be5-a19e-00d54714b533" />
 
 ```
 terraform init
@@ -352,6 +350,8 @@ terraform plan
 
 terraform apply
 ```
+<img width="1920" height="1020" alt="Screenshot 2026-07-12 202731" src="https://github.com/user-attachments/assets/f2aea71e-78ab-4cbe-b9b9-fc19fbcae099" />
+<img width="1920" height="1020" alt="Screenshot 2026-07-12 203940" src="https://github.com/user-attachments/assets/f9710a85-1e3c-47dd-91e3-a3be8553aa98" />
 
 Expected resources:
 
